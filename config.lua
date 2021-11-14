@@ -44,7 +44,7 @@ Config.MenuItems = {
                         title = 'Cuff',
                         icon = 'user-lock',
                         type = 'client',
-                        event = 'police:client:CuffPlayerSoft',
+                        event = 'police:client:CuffPlayer',
                         shouldClose = true
                     }, {
                         id = 'playerinvehicle',
