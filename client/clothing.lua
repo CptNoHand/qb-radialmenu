@@ -8,7 +8,7 @@ function AddNewVariation(which, gender, one, two, single)
 	end
 end
 
-Citizen.CreateThread(function()
+CreateThread(function()
 	-- Male Visor/Hat Variations
 	AddNewVariation("Visor", "Male", 9, 10)
 	AddNewVariation("Visor", "Male", 18, 67)
@@ -192,59 +192,59 @@ Citizen.CreateThread(function()
 	AddNewVariation("Jackets", "Female", 53, 52)
 	AddNewVariation("Jackets", "Female", 57, 58)
 	AddNewVariation("Jackets", "Female", 62, 63)
-	AddNewVariation("Jackets", "Female", 84, 85) 
-	AddNewVariation("Jackets", "Female", 90, 91) 
+	AddNewVariation("Jackets", "Female", 84, 85)
+	AddNewVariation("Jackets", "Female", 90, 91)
 	AddNewVariation("Jackets", "Female", 92, 93)
 	AddNewVariation("Jackets", "Female", 94, 95)
 	AddNewVariation("Jackets", "Female", 117, 118)
 	AddNewVariation("Jackets", "Female", 120, 121)
 	AddNewVariation("Jackets", "Female", 128, 129)
 	AddNewVariation("Jackets", "Female", 187, 186)
-	AddNewVariation("Jackets", "Female", 190, 191) 
-	AddNewVariation("Jackets", "Female", 196, 197) 
-	AddNewVariation("Jackets", "Female", 198, 199) 
+	AddNewVariation("Jackets", "Female", 190, 191)
+	AddNewVariation("Jackets", "Female", 196, 197)
+	AddNewVariation("Jackets", "Female", 198, 199)
 	AddNewVariation("Jackets", "Female", 200, 201)
-	AddNewVariation("Jackets", "Female", 202, 205) 
-	AddNewVariation("Jackets", "Female", 204, 207) 
+	AddNewVariation("Jackets", "Female", 202, 205)
+	AddNewVariation("Jackets", "Female", 204, 207)
 	AddNewVariation("Jackets", "Female", 210, 211)
 	AddNewVariation("Jackets", "Female", 213, 216)
 	AddNewVariation("Jackets", "Female", 214, 215)
 	AddNewVariation("Jackets", "Female", 225, 226)
-	AddNewVariation("Jackets", "Female", 227, 228) 
-	AddNewVariation("Jackets", "Female", 239, 240) 
+	AddNewVariation("Jackets", "Female", 227, 228)
+	AddNewVariation("Jackets", "Female", 239, 240)
 	AddNewVariation("Jackets", "Female", 242, 243)
 	AddNewVariation("Jackets", "Female", 244, 364)
 	AddNewVariation("Jackets", "Female", 245, 246)
 	AddNewVariation("Jackets", "Female", 249, 250)
 	AddNewVariation("Jackets", "Female", 259, 261)
-	AddNewVariation("Jackets", "Female", 265, 270) 
-	AddNewVariation("Jackets", "Female", 271, 272) 
-	AddNewVariation("Jackets", "Female", 274, 275) 
+	AddNewVariation("Jackets", "Female", 265, 270)
+	AddNewVariation("Jackets", "Female", 271, 272)
+	AddNewVariation("Jackets", "Female", 274, 275)
 	AddNewVariation("Jackets", "Female", 276, 277)
 	AddNewVariation("Jackets", "Female", 280, 281)
 	AddNewVariation("Jackets", "Female", 292, 293)
 	AddNewVariation("Jackets", "Female", 305, 306)
-	AddNewVariation("Jackets", "Female", 307, 308) 
-	AddNewVariation("Jackets", "Female", 311, 314) 
+	AddNewVariation("Jackets", "Female", 307, 308)
+	AddNewVariation("Jackets", "Female", 311, 314)
 	AddNewVariation("Jackets", "Female", 312, 313)
 	AddNewVariation("Jackets", "Female", 316, 317)
-	AddNewVariation("Jackets", "Female", 325, 326) 
-	AddNewVariation("Jackets", "Female", 327, 328) 
-	AddNewVariation("Jackets", "Female", 329, 330) 
+	AddNewVariation("Jackets", "Female", 325, 326)
+	AddNewVariation("Jackets", "Female", 327, 328)
+	AddNewVariation("Jackets", "Female", 329, 330)
 	AddNewVariation("Jackets", "Female", 332, 333)
-	AddNewVariation("Jackets", "Female", 339, 340) 
-	AddNewVariation("Jackets", "Female", 345, 346) 
-	AddNewVariation("Jackets", "Female", 351, 352) 
+	AddNewVariation("Jackets", "Female", 339, 340)
+	AddNewVariation("Jackets", "Female", 345, 346)
+	AddNewVariation("Jackets", "Female", 351, 352)
 	AddNewVariation("Jackets", "Female", 354, 121)
 	AddNewVariation("Jackets", "Female", 355, 356)
 	AddNewVariation("Jackets", "Female", 357, 359)
 	AddNewVariation("Jackets", "Female", 358, 360)
-	AddNewVariation("Jackets", "Female", 362, 363) 
-	AddNewVariation("Jackets", "Female", 366, 367) 
+	AddNewVariation("Jackets", "Female", 362, 363)
+	AddNewVariation("Jackets", "Female", 366, 367)
 	AddNewVariation("Jackets", "Female", 365, 269)
-	AddNewVariation("Jackets", "Female", 370, 371) 
+	AddNewVariation("Jackets", "Female", 370, 371)
 	AddNewVariation("Jackets", "Female", 372, 373)
-	AddNewVariation("Jackets", "Female", 378, 379) 
+	AddNewVariation("Jackets", "Female", 378, 379)
 end)
 
 Variations = {
@@ -699,11 +699,11 @@ local Extras = {
 		Drawable = 11,
 		Table = {
 			Standalone = true, Male = 252, Female = 74,
-			Extra = { 
-						{Drawable = 8, Id = 15, Tex = 0, Name = "Extra Undershirt"},
-			 			{Drawable = 3, Id = 15, Tex = 0, Name = "Extra Gloves"},
-			 			{Drawable = 10, Id = 0, Tex = 0, Name = "Extra Decals"},
-			  		}
+			Extra = {
+				{Drawable = 8, Id = 15, Tex = 0, Name = "Extra Undershirt"},
+				{Drawable = 3, Id = 15, Tex = 0, Name = "Extra Gloves"},
+				{Drawable = 10, Id = 0, Tex = 0, Name = "Extra Decals"},
+				}
 			},
 		Emote = {Dict = "clothingtie", Anim = "try_tie_negative_a", Move = 51, Dur = 1200}
 	},
@@ -795,8 +795,7 @@ function ResetClothing(anim)
 	LastEquipped = {}
 end
 
-RegisterNetEvent('qb-radialmenu:ResetClothing')
-AddEventHandler('qb-radialmenu:ResetClothing', ResetClothing)
+RegisterNetEvent('qb-radialmenu:ResetClothing', ResetClothing)
 
 function ToggleClothing(whic, extra)
 	local which = whic
@@ -814,7 +813,7 @@ function ToggleClothing(whic, extra)
 	local Toggle = Drawables[which] if extra then Toggle = Extras[which] end
 	local Ped = PlayerPedId()
 	local Cur = { -- Lets check what we are currently wearing.
-		Drawable = GetPedDrawableVariation(Ped, Toggle.Drawable), 
+		Drawable = GetPedDrawableVariation(Ped, Toggle.Drawable),
 		Id = Toggle.Drawable,
 		Ped = Ped,
 		Texture = GetPedTextureVariation(Ped, Toggle.Drawable),
@@ -844,7 +843,7 @@ function ToggleClothing(whic, extra)
 		Notify("There dont seem to be any variants for this.") return
 	else
 		if not LastEquipped[which] then
-			if Cur.Drawable ~= Table then 
+			if Cur.Drawable ~= Table then
 				PlayToggleEmote(Toggle.Emote, function()
 					LastEquipped[which] = Cur
 					SetPedComponentVariation(Ped, Toggle.Drawable, Table, 0, 0)
@@ -881,8 +880,7 @@ function ToggleClothing(whic, extra)
 	Notify("You are already wearing that.") return false
 end
 
-RegisterNetEvent('qb-radialmenu:ToggleClothing')
-AddEventHandler('qb-radialmenu:ToggleClothing', ToggleClothing)
+RegisterNetEvent('qb-radialmenu:ToggleClothing', ToggleClothing)
 
 function ToggleProps(whic)
 	local which = whic
@@ -900,7 +898,7 @@ function ToggleProps(whic)
 	local Cur = { -- Lets get out currently equipped prop.
 		Id = Prop.Prop,
 		Ped = Ped,
-		Prop = GetPedPropIndex(Ped, Prop.Prop), 
+		Prop = GetPedPropIndex(Ped, Prop.Prop),
 		Texture = GetPedPropTextureIndex(Ped, Prop.Prop),
 	}
 	if not Prop.Variants then
@@ -926,8 +924,7 @@ function ToggleProps(whic)
 	end
 end
 
-RegisterNetEvent('qb-radialmenu:ToggleProps')
-AddEventHandler('qb-radialmenu:ToggleProps', ToggleProps)
+RegisterNetEvent('qb-radialmenu:ToggleProps', ToggleProps)
 
 for k,v in pairs(Config.Commands) do
 	RegisterCommand(k, v.Func)
@@ -961,7 +958,7 @@ function GetKey(str)
 end
 
 function IncurCooldown(ms)
-	Citizen.CreateThread(function()
+	CreateThread(function()
 		Cooldown = true Wait(ms) Cooldown = false
 	end)
 end
@@ -986,7 +983,7 @@ function Text(x, y, scale, text, colour, align, force, w)
 	SetTextJustification(align)
 	SetTextScale(scale, scale)
 	SetTextColour(colour[1], colour[2], colour[3], 255)
-	if Config.GUI.TextOutline then SetTextOutline() end	
+	if Config.GUI.TextOutline then SetTextOutline() end
 	if w then SetTextWrap(w.x, w.y) end
 	SetTextEntry("STRING")
 	AddTextComponentString(text)
@@ -1007,8 +1004,7 @@ function IsMpPed(ped)
 	if CurrentModel == Male then return "Male" elseif CurrentModel == Female then return "Female" else return false end
 end
 
-RegisterNetEvent('dpc:EquipLast')
-AddEventHandler('dpc:EquipLast', function()
+RegisterNetEvent('dpc:EquipLast', function()
 	local Ped = PlayerPedId()
 	for k,v in pairs(LastEquipped) do
 		if v then
@@ -1019,7 +1015,6 @@ AddEventHandler('dpc:EquipLast', function()
 	LastEquipped = {}
 end)
 
-RegisterNetEvent('dpc:ResetClothing')
-AddEventHandler('dpc:ResetClothing', function()
+RegisterNetEvent('dpc:ResetClothing', function()
 	LastEquipped = {}
 end)
