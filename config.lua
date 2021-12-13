@@ -580,6 +580,26 @@ Config.JobInteractions = {
             shouldClose = true
         }
     },
+    ["lscustoms"] = {
+        {
+            id = 'towvehicle',
+            title = 'Tow vehicle',
+            icon = 'truck-pickup',
+            type = 'client',
+            event = 'qb-tow:client:TowVehicle',
+            shouldClose = true
+        }
+    },
+    ["redline"] = {
+        {
+            id = 'towvehicle',
+            title = 'Tow vehicle',
+            icon = 'truck-pickup',
+            type = 'client',
+            event = 'qb-tow:client:TowVehicle',
+            shouldClose = true
+        }
+    },
     ["police"] = {
         {
             id = 'emergencybutton',
