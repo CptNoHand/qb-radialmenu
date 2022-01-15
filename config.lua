@@ -939,6 +939,36 @@ Config.JobInteractions = {
             }
         }
     },
+    ["cardealer"] = {
+        {
+            id = 'showroommenu',
+            title = 'Showroom',
+            icon = 'car',
+            type = 'client',
+            event = 'qb-dealerships:client:OpenCardealerShowroom',
+            shouldClose = true
+        }
+    },
+    ["tuner"] = {
+        {
+            id = 'showroommenu',
+            title = 'Showroom',
+            icon = 'car',
+            type = 'client',
+            event = 'qb-dealerships:client:OpenTunerShowroom',
+            shouldClose = true
+        }
+    },
+    ["motordealer"] = {
+        {
+            id = 'showroommenu',
+            title = 'Showroom',
+            icon = 'car',
+            type = 'client',
+            event = 'qb-dealerships:client:OpenMotordealerShowroom',
+            shouldClose = true
+        }
+    },
     ["taxi"] = {
         {
             id = 'togglemeter',
