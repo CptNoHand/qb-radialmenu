@@ -848,6 +848,14 @@ Config.MenuItems = {
                     }
                 }
             }, {
+                id = 'driftmodus',
+                title = 'Drift modus',
+                icon = 'car-side',
+                type = 'client',
+                event = 'qbdriftmode:DriftMode',
+                shouldClose = true
+            },
+            }, {
                 id = 'vehicleseats',
                 title = 'Vehicle Seats',
                 icon = 'chair',
@@ -933,36 +941,6 @@ Config.JobInteractions = {
             }
         }
     },
-    ["cardealer"] = {
-        {
-            id = 'showroommenu',
-            title = 'Showroom',
-            icon = 'car',
-            type = 'client',
-            event = 'qb-dealerships:client:OpenCardealerShowroom',
-            shouldClose = true
-        }
-    },
-    ["tuner"] = {
-        {
-            id = 'showroommenu',
-            title = 'Showroom',
-            icon = 'car',
-            type = 'client',
-            event = 'qb-dealerships:client:OpenTunerShowroom',
-            shouldClose = true
-        }
-    },
-    ["motordealer"] = {
-        {
-            id = 'showroommenu',
-            title = 'Showroom',
-            icon = 'car',
-            type = 'client',
-            event = 'qb-dealerships:client:OpenMotordealerShowroom',
-            shouldClose = true
-        }
-    },
     ["taxi"] = {
         {
             id = 'togglemeter',
@@ -1025,6 +1003,16 @@ Config.JobInteractions = {
         }
     },
     ["redline"] = {
+        {
+            id = 'towvehicle',
+            title = 'Tow vehicle',
+            icon = 'truck-pickup',
+            type = 'client',
+            event = 'qb-tow:client:TowVehicle',
+            shouldClose = true
+        }
+    },
+    ["custommotors"] = {
         {
             id = 'towvehicle',
             title = 'Tow vehicle',
