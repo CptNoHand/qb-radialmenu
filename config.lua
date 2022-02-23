@@ -879,7 +879,7 @@ Config.MenuItems = {
             },
         }
     },
-}
+
 
 Config.JobInteractions = {
     ["ambulance"] = {
