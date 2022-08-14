@@ -878,7 +878,7 @@ Config.MenuItems = {
                 shouldClose = true
             },
         }
-    },
+    }
 
 
 Config.JobInteractions = {
@@ -1158,6 +1158,36 @@ Config.JobInteractions = {
             icon = 'hotdog',
             type = 'client',
             event = 'qb-hotdogjob:client:ToggleSell',
+            shouldClose = true
+        }
+    },
+    ["cardealer"] = {
+        {
+            id = 'showroommenu',
+            title = 'Showroom',
+            icon = 'car',
+            type = 'client',
+            event = 'qb-dealerships:client:OpenCardealerShowroom',
+            shouldClose = true
+        }
+    },
+    ["tuner"] = {
+        {
+            id = 'showroommenu',
+            title = 'Showroom',
+            icon = 'car',
+            type = 'client',
+            event = 'qb-dealerships:client:OpenTunerShowroom',
+            shouldClose = true
+        }
+    },
+    ["motordealer"] = {
+        {
+            id = 'showroommenu',
+            title = 'Showroom',
+            icon = 'car',
+            type = 'client',
+            event = 'qb-dealerships:client:OpenMotordealerShowroom',
             shouldClose = true
         }
     }
