@@ -650,7 +650,7 @@ Config.MenuItems = {
                             }, {
                                 id = 'Mask',
                                 title = 'Mask',
-                                icon = 'theater-masks',
+                                icon = 'masks-theater',
                                 type = 'client',
                                 event = 'qb-radialmenu:ToggleClothing',
                                 shouldClose = true
@@ -664,7 +664,7 @@ Config.MenuItems = {
                             }, {
                                 id = 'Bag',
                                 title = 'Bag',
-                                icon = 'shopping-bag',
+                                icon = 'bag-shopping',
                                 type = 'client',
                                 event = 'qb-radialmenu:ToggleClothing',
                                 shouldClose = true
