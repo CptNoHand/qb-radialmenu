@@ -10,13 +10,6 @@ Config.MenuItems = {
         icon = 'user',
         items = {
             {
-                id = 'givenum',
-                title = 'Give Contact Details',
-                icon = 'address-book',
-                type = 'client',
-                event = 'qb-phone:client:GiveContactDetails',
-                shouldClose = true
-            }, {
                 id = 'getintrunk',
                 title = 'Get In Trunk',
                 icon = 'car',
@@ -161,409 +154,6 @@ Config.MenuItems = {
                                 event = 'qb-houses:client:setLocation',
                                 shouldClose = true
                             }
-                        }
-                    }
-                }
-            }, {
-                id = 'walking-style2',
-                title = 'Walking Styles',
-                icon = 'walking',
-                items = {
-                    {
-                        id = 'walk1',
-                        title = 'Arrogant',
-                        icon = 'meh-rolling-eyes',
-                        type = 'client',
-                        event = 'qb-walkstyles:arrogant',
-                        shouldClose = true,
-                        items = {}
-                    },
-                    {
-                        id = 'walk2',
-                        title = 'Casual',
-                        icon = 'meh-blank',
-                        type = 'client',
-                        event = 'qb-walkstyles:casual',
-                        shouldClose = true,
-                        items = {}
-                    },
-                    {
-                        id = 'walk3',
-                        title = 'Casual 2',
-                        icon = 'meh-blank',
-                        type = 'client',
-                        event = 'qb-walkstyles:casual2',
-                        shouldClose = true,
-                        items = {}
-                    },
-                    {
-                        id = 'walk4',
-                        title = 'Casual 3',
-                        icon = 'meh-blank',
-                        type = 'client',
-                        event = 'qb-walkstyles:casual3',
-                        shouldClose = true,
-                        items = {}
-                    },
-                    {
-                        id = 'walk5',
-                        title = 'Casual 4',
-                        icon = 'meh-blank',
-                        type = 'client',
-                        event = 'qb-walkstyles:casual4',
-                        shouldClose = true,
-                        items = {}
-                    },
-                    {
-                        id = 'walk6',
-                        title = 'Casual 5',
-                        icon = 'meh-blank',
-                        type = 'client',
-                        event = 'qb-walkstyles:casual5',
-                        shouldClose = true,
-                        items = {}
-                    },
-                    {
-                        id = 'walk7',
-                        title = 'Casual 6',
-                        icon = 'meh-blank',
-                        type = 'client',
-                        event = 'qb-walkstyles:casual6',
-                        shouldClose = true,
-                        items = {}
-                    },
-                    {
-                        id = 'walk8',
-                        title = 'Confident',
-                        icon = 'grin-wink',
-                        type = 'client',
-                        event = 'qb-walkstyles:confident',
-                        shouldClose = true,
-                        items = {}
-                    },
-                    {
-                        id = 'walking-style3',
-                        title = 'More...',
-                        icon = 'ellipsis-h',
-                        items = {
-                            {
-                                id = 'walk9',
-                                title = 'Business',
-                                icon = 'briefcase',
-                                type = 'client',
-                                event = 'qb-walkstyles:business',
-                                shouldClose = true,
-                                items = {}
-                            },
-                            {
-                                id = 'walk10',
-                                title = 'Business 2',
-                                icon = 'briefcase',
-                                type = 'client',
-                                event = 'qb-walkstyles:business2',
-                                shouldClose = true,
-                                items = {}
-                            },
-                            {
-                                id = 'walk11',
-                                title = 'Business 3',
-                                icon = 'briefcase',
-                                type = 'client',
-                                event = 'qb-walkstyles:business3',
-                                shouldClose = true,
-                                items = {}
-                            },
-                            {
-                                id = 'walk12',
-                                title = 'Femme',
-                                icon = 'female',
-                                type = 'client',
-                                event = 'qb-walkstyles:femme',
-                                shouldClose = true,
-                                items = {}
-                            },
-                            {
-                                id = 'walk13',
-                                title = 'Flee',
-                                icon = 'ghost',
-                                type = 'client',
-                                event = 'qb-walkstyles:flee',
-                                shouldClose = true,
-                                items = {}
-                            },
-                            {
-                                id = 'walk14',
-                                title = 'Gangster',
-                                icon = 'dollar-sign',
-                                type = 'client',
-                                event = 'qb-walkstyles:gangster',
-                                shouldClose = true,
-                                items = {}
-                            },
-                            {
-                                id = 'walk15',
-                                title = 'Gangster 2',
-                                icon = 'dollar-sign',
-                                type = 'client',
-                                event = 'qb-walkstyles:gangster2',
-                                shouldClose = true,
-                                items = {}
-                            },
-                            {
-                                id = 'walk16',
-                                title = 'Gangster 3',
-                                icon = 'dollar-sign',
-                                type = 'client',
-                                event = 'qb-walkstyles:gangster3',
-                                shouldClose = true,
-                                items = {}
-                            },
-                            {
-                                id = 'walking-style4',
-                                title = 'More...',
-                                icon = 'ellipsis-h',
-                                items = {
-                                    {
-                                        id = 'walk17',
-                                        title = 'Gangster 4',
-                                        icon = 'dollar-sign',
-                                        type = 'client',
-                                        event = 'qb-walkstyles:gangster4',
-                                        shouldClose = true,
-                                        items = {}
-                                    },
-                                    {
-                                        id = 'walk18',
-                                        title = 'Gangster 5',
-                                        icon = 'dollar-sign',
-                                        type = 'client',
-                                        event = 'qb-walkstyles:gangster5',
-                                        shouldClose = true,
-                                        items = {}
-                                    },
-                                    {
-                                        id = 'walk19',
-                                        title = 'Heels',
-                                        icon = 'female',
-                                        type = 'client',
-                                        event = 'qb-walkstyles:heels',
-                                        shouldClose = true,
-                                        items = {}
-                                    },
-                                    {
-                                        id = 'walk20',
-                                        title = 'Heels 2',
-                                        icon = 'female',
-                                        type = 'client',
-                                        event = 'qb-walkstyles:heels2',
-                                        shouldClose = true,
-                                        items = {}
-                                    },
-                                    {
-                                        id = 'walk21',
-                                        title = 'Hiking',
-                                        icon = 'hiking',
-                                        type = 'client',
-                                        event = 'qb-walkstyles:hiking',
-                                        shouldClose = true,
-                                        items = {}
-                                    },
-                                    {
-                                        id = 'walk22',
-                                        title = 'Quick',
-                                        icon = 'running',
-                                        type = 'client',
-                                        event = 'qb-walkstyles:quick',
-                                        shouldClose = true,
-                                        items = {}
-                                    },
-                                    {
-                                        id = 'walk23',
-                                        title = 'Wide',
-                                        icon = 'arrows-alt-h',
-                                        type = 'client',
-                                        event = 'qb-walkstyles:wide',
-                                        shouldClose = true,
-                                        items = {}
-                                    },
-                                    {
-                                        id = 'walk24',
-                                        title = 'Scared',
-                                        icon = 'grimace',
-                                        type = 'client',
-                                        event = 'qb-walkstyles:scared',
-                                        shouldClose = true,
-                                        items = {}
-                                    },
-                                    {
-                                        id = 'walking-style6',
-                                        title = 'More...',
-                                        icon = 'ellipsis-h',
-                                        items = {
-                                            {
-                                                id = 'walk25',
-                                                title = 'Brave',
-                                                icon = 'wolf-pack-battalion',
-                                                type = 'client',
-                                                event = 'qb-walkstyles:brave',
-                                                shouldClose = true,
-                                                items = {}
-                                            },
-                                            {
-                                                id = 'walk26',
-                                                title = 'Tipsy',
-                                                icon = 'beer',
-                                                type = 'client',
-                                                event = 'qb-walkstyles:tipsy',
-                                                shouldClose = true,
-                                                items = {}
-                                            },
-                                            {
-                                                id = 'walk27',
-                                                title = 'Injured',
-                                                icon = 'crutch',
-                                                type = 'client',
-                                                event = 'qb-walkstyles:injured',
-                                                shouldClose = true,
-                                                items = {}
-                                            },
-                                            {
-                                                id = 'walk28',
-                                                title = 'Tough',
-                                                icon = 'dumbbell',
-                                                type = 'client',
-                                                event = 'qb-walkstyles:tough',
-                                                shouldClose = true,
-                                                items = {}
-                                            },
-                                            {
-                                                id = 'walk29',
-                                                title = 'Sassy',
-                                                icon = 'kiss',
-                                                type = 'client',
-                                                event = 'qb-walkstyles:sassy',
-                                                shouldClose = true,
-                                                items = {}
-                                            },
-                                            {
-                                                id = 'walk30',
-                                                title = 'Sad',
-                                                icon = 'frown',
-                                                type = 'client',
-                                                event = 'qb-walkstyles:sad',
-                                                shouldClose = true,
-                                                items = {}
-                                            },
-                                            {
-                                                id = 'walk31',
-                                                title = 'Posh',
-                                                icon = 'crown',
-                                                type = 'client',
-                                                event = 'qb-walkstyles:posh',
-                                                shouldClose = true,
-                                                items = {}
-                                            },
-                                            {
-                                                id = 'walk32',
-                                                title = 'Alien',
-                                                icon = 'reddit-alien',
-                                                type = 'client',
-                                                event = 'qb-walkstyles:alien',
-                                                shouldClose = true,
-                                                items = {}
-                                            },
-                                            {
-                                                id = 'walking-style8',
-                                                title = 'More...',
-                                                icon = 'ellipsis-h',
-                                                items = {
-                                                    {
-                                                        id = 'walk33',
-                                                        title = 'Non Chalant',
-                                                        icon = 'meh',
-                                                        type = 'client',
-                                                        event = 'qb-walkstyles:nonchalant',
-                                                        shouldClose = true,
-                                                        items = {}
-                                                    },
-                                                    {
-                                                        id = 'walk34',
-                                                        title = 'Hobo',
-                                                        icon = 'dumpster',
-                                                        type = 'client',
-                                                        event = 'qb-walkstyles:hobo',
-                                                        shouldClose = true,
-                                                        items = {}
-                                                    },
-                                                    {
-                                                        id = 'walk35',
-                                                        title = 'Money',
-                                                        icon = 'money-bill-alt',
-                                                        type = 'client',
-                                                        event = 'qb-walkstyles:money',
-                                                        shouldClose = true,
-                                                        items = {}
-                                                    },
-                                                    {
-                                                        id = 'walk36',
-                                                        title = 'Swagger',
-                                                        icon = 'blind',
-                                                        type = 'client',
-                                                        event = 'qb-walkstyles:swagger',
-                                                        shouldClose = true,
-                                                        items = {}
-                                                    },
-                                                    {
-                                                        id = 'walk37',
-                                                        title = 'Shady',
-                                                        icon = 'user-ninja',
-                                                        type = 'client',
-                                                        event = 'qb-walkstyles:shady',
-                                                        shouldClose = true,
-                                                        items = {}
-                                                    },
-                                                    {
-                                                        id = 'walk38',
-                                                        title = 'Man Eater',
-                                                        icon = 'grin-tongue-wink',
-                                                        type = 'client',
-                                                        event = 'qb-walkstyles:maneater',
-                                                        shouldClose = true,
-                                                        items = {}
-                                                    },
-                                                    {
-                                                        id = 'walk39',
-                                                        title = 'ChiChi',
-                                                        icon = 'yin-yang',
-                                                        type = 'client',
-                                                        event = 'qb-walkstyles:chichi',
-                                                        shouldClose = true,
-                                                        items = {}
-                                                    },
-                                                    {
-                                                        id = 'walk40',
-                                                        title = 'Default',
-                                                        icon = 'meh',
-                                                        type = 'client',
-                                                        event = 'qb-walkstyles:default',
-                                                        shouldClose = true,
-                                                        items = {}
-                                                    },
-                                                    {
-                                                        id = 'walk41',
-                                                        title = 'Walking Styles Menu',
-                                                        icon = 'walking',
-                                                        type = 'client',
-                                                        event = 'qb-walkstyles:openmenu',
-                                                        shouldClose = true,
-                                                        items = {}
-                                                    },
-                                                }
-                                            },
-                                        }
-                                    },
-                                }
-                            },
                         }
                     }
                 }
@@ -863,7 +453,7 @@ Config.JobInteractions = {
             title = 'Check Health Status',
             icon = 'heart-pulse',
             type = 'client',
-            event = 'hospital:client:CheckStatus',
+            event = 'gl-ambulance:sendPulseBack',
             shouldClose = true
         },{
             id = 'revivep',
@@ -957,16 +547,6 @@ Config.JobInteractions = {
             shouldClose = true
         }
     },
-    ["mechanic"] = {
-        {
-            id = 'towvehicle',
-            title = 'Tow vehicle',
-            icon = 'truck-pickup',
-            type = 'client',
-            event = 'qb-tow:client:TowVehicle',
-            shouldClose = true
-        }
-    },
     ["lscustoms"] = {
         {
             id = 'towvehicle',
@@ -977,17 +557,7 @@ Config.JobInteractions = {
             shouldClose = true
         }
     },
-    ["redline"] = {
-        {
-            id = 'towvehicle',
-            title = 'Tow vehicle',
-            icon = 'truck-pickup',
-            type = 'client',
-            event = 'qb-tow:client:TowVehicle',
-            shouldClose = true
-        }
-    },
-    ["custommotors"] = {
+    ["ottos"] = {
         {
             id = 'towvehicle',
             title = 'Tow vehicle',
@@ -1066,7 +636,14 @@ Config.JobInteractions = {
                     type = 'client',
                     event = 'police:client:JailPlayer',
                     shouldClose = true
-                }
+                }, {
+                    id = 'checkinsurance',
+                    title = 'Check Insurance',
+                    icon = 'question',
+                    type = 'client',
+                    event = 'Pine-CarInsurance:client:PoliceCheckInsurance',
+                    shouldClose = true
+                },
             }
         }, {
             id = 'policeobjects',
@@ -1133,36 +710,6 @@ Config.JobInteractions = {
             icon = 'hotdog',
             type = 'client',
             event = 'qb-hotdogjob:client:ToggleSell',
-            shouldClose = true
-        }
-    },
-    ["cardealer"] = {
-        {
-            id = 'showroommenu',
-            title = 'Showroom',
-            icon = 'car',
-            type = 'client',
-            event = 'qb-dealerships:client:OpenCardealerShowroom',
-            shouldClose = true
-        }
-    },
-    ["tuner"] = {
-        {
-            id = 'showroommenu',
-            title = 'Showroom',
-            icon = 'car',
-            type = 'client',
-            event = 'qb-dealerships:client:OpenTunerShowroom',
-            shouldClose = true
-        }
-    },
-    ["motordealer"] = {
-        {
-            id = 'showroommenu',
-            title = 'Showroom',
-            icon = 'car',
-            type = 'client',
-            event = 'qb-dealerships:client:OpenMotordealerShowroom',
             shouldClose = true
         }
     }
