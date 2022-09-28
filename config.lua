@@ -557,7 +557,7 @@ Config.JobInteractions = {
             shouldClose = true
         }
     },
-    ["ottos"] = {
+    ["eastcustoms"] = {
         {
             id = 'towvehicle',
             title = 'Tow vehicle',
@@ -576,11 +576,11 @@ Config.JobInteractions = {
             event = 'police:client:SendPoliceEmergencyAlert',
             shouldClose = true
         }, {
-            id = 'checkvehstatus',
-            title = 'Check Tune Status',
-            icon = 'circle-info',
-            type = 'client',
-            event = 'qb-tunerchip:client:TuneStatus',
+            id = 'openmdw',
+            title = 'MDW',
+            icon = 'address-book',
+            type = 'command',
+            event = 'mdw',
             shouldClose = true
         }, {
             id = 'resethouse',
