@@ -9,7 +9,8 @@ ui_page 'html/index.html'
 shared_scripts {
     'config.lua',
     '@qb-core/shared/locale.lua',
-    'locales/de.lua' -- Change this to your preferred language
+    'locales/de.lua',
+    'locales/*.lua'
 }
 
 client_scripts {
