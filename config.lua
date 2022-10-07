@@ -707,9 +707,22 @@ Config.JobInteractions = {
         {
             id = 'togglesell',
             title = 'Toggle sell',
-            icon = 'hotdog',
+            icon = 'campground',
             type = 'client',
             event = 'qb-hotdogjob:client:ToggleSell',
+            shouldClose = true
+        }
+    }
+}
+
+Config.GangInteractions = {
+    ["marabunta"] = {
+        {
+            id = 'gangmenu',
+            title = 'Gang Menü',
+            icon = 'handcuffs',
+            type = 'client',
+            event = 'qb-gangmenu:client:OpenMenu',
             shouldClose = true
         }
     }
