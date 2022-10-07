@@ -55,7 +55,7 @@ local Translations = {
     },
 }
 
-Lang = Lang or Locale:new({
+Lang = Locale:new({
     phrases = Translations,
     warnOnMissing = true
 })

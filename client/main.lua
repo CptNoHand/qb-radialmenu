@@ -336,23 +336,6 @@ RegisterNetEvent('qb-radialmenu:client:ChangeSeat', function(data)
     end
 end)
 
-RegisterNetEvent('qb-radialmenu:flipVehicle', function()
-    TriggerEvent('animations:client:EmoteCommandStart', {"mechanic"})
-    QBCore.Functions.Progressbar("pick_grape", Lang:t("progress.flipping_car"), Config.Fliptime, false, true, {
-        disableMovement = true,
-        disableCarMovement = true,
-        disableMouse = false,
-        disableCombat = true,
-    }, {}, {}, {}, function() -- Done
-        local vehicle = getNearestVeh()
-        SetVehicleOnGroundProperly(vehicle)
-        TriggerEvent('animations:client:EmoteCommandStart', {"c"})
-    end, function() -- Cancel
-        QBCore.Functions.Notify(Lang:t("task.cancel_task"), "error")
-        TriggerEvent('animations:client:EmoteCommandStart', {"c"})
-    end)
-end)
-
 -- NUI Callbacks
 
 RegisterNUICallback('closeRadial', function(data, cb)

@@ -43,8 +43,3 @@ $(document).on('keydown', function(e) {
             break;
     }
 });
-
-// Close on any key up, hold/release support incase user changes keybind on the fivem side
-$(document).on('keyup', function(e) {
-    QBRadialMenu.close();
-});
