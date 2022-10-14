@@ -585,6 +585,13 @@ Config.JobInteractions = {
             event = 'mdw',
             shouldClose = true
         }, {
+            id = 'opencams',
+            title = 'CAMS',
+            icon = 'address-book',
+            type = 'client',
+            event = 'a5-policecams:client:OpenCamMenu',
+            shouldClose = true
+        }, {
             id = 'resethouse',
             title = 'Reset house lock',
             icon = 'key',
@@ -637,13 +644,6 @@ Config.JobInteractions = {
                     icon = 'user-lock',
                     type = 'client',
                     event = 'police:client:JailPlayer',
-                    shouldClose = true
-                }, {
-                    id = 'checkinsurance',
-                    title = 'Check Insurance',
-                    icon = 'question',
-                    type = 'client',
-                    event = 'Pine-CarInsurance:client:PoliceCheckInsurance',
                     shouldClose = true
                 },
             }
